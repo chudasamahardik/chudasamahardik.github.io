@@ -579,7 +579,7 @@ noscript {
 .text-content {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 80%;
     height: 100%;
     align-items: flex-start;
     justify-content: center
@@ -695,7 +695,9 @@ noscript {
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.4;
+    width: 100%;
     max-width: 900px;
+    color: var(--color-ddd-color);
 }
 
 #info-para,
@@ -963,8 +965,15 @@ noscript {
 }
 
 .about-section,
-.projects-section-div,
 .skills-section {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.projects-section-div {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -1582,7 +1591,6 @@ footer {
         font-size: 60%
     }
 
-    .projects-section-div,
     .skills-section,
     .text-content {
         width: 80%
@@ -1945,7 +1953,6 @@ footer {
     }
 
     .about-section,
-    .projects-section-div,
     .skills-section {
         width: 80%
     }
